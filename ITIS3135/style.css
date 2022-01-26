@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
 }
-
+ 
+html{    
+  background-color: #111517;
+}
 .landingSection {
   height: 100vh;
   width: 100%;
@@ -116,6 +119,7 @@ a {
   flex-direction: column;
   color:white;
   font-family: "Oswald", sans-serif;
+  margin-top: 5rem;
 }
 
 .main{
@@ -124,8 +128,21 @@ a {
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  color: white
 }
 
 .nav{
   background-color: black;
+  color:white;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  font-family: "Oswald", sans-serif;
+  align-items: center;
+}
+
+.main_item{
+  margin-top: 5rem;  
+  font-family: "Roboto", sans-serif;
+
 }
