@@ -1,32 +1,30 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
- 
-html{    
+
+html {
   background-color: #111517;
 }
 .landingSection {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.7), 
-    rgba(0, 0, 0, 0.7)), url(https://wallpaperaccess.com/full/1175800.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://wallpaperaccess.com/full/1175800.jpg);
   background-position: center;
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.hero{
+.hero {
   height: 100vh;
   width: 100%;
-  position:absolute;
+  position: absolute;
   left: 0;
   min-height: 100vh;
-
 }
-.vid{
+.vid {
   height: 100%;
   z-index: -10;
   width: 100%;
@@ -52,7 +50,6 @@ html{
   letter-spacing: -0.1rem;
   text-transform: uppercase;
   z-index: 10;
-
 }
 
 .landingText {
@@ -101,39 +98,40 @@ a {
   font-weight: 600;
 }
 
-.landingImage{
+.landingImage {
   height: 4rem;
 }
 
-.subTitle{
+.subTitle {
   color: #fff;
   font-size: 1rem;
 }
 
-.footer{
+.footer {
   background-color: #111517;
   height: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color:white;
+  color: white;
   font-family: "Oswald", sans-serif;
   margin-top: 5rem;
 }
 
-.main{
+.main {
   background-color: #111517;
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  color: white
+  color: white;
+  font-family: "Roboto", sans-serif;
 }
 
-.nav{
+.nav {
   background-color: black;
-  color:white;
+  color: white;
   height: 4rem;
   display: flex;
   justify-content: center;
@@ -141,8 +139,7 @@ a {
   align-items: center;
 }
 
-.main_item{
-  margin-top: 5rem;  
+.main_item {
+  margin-top: 5rem;
   font-family: "Roboto", sans-serif;
-
 }

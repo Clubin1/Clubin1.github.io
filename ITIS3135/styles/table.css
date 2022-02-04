@@ -1,0 +1,39 @@
+.main_padding{
+    margin-top: 2rem;
+}
+
+.table{
+    margin-top: 2rem;
+}
+
+.table_title{
+    margin-top: 2rem;
+}
+
+.table_dark{
+    background-color: black;
+}
+table tr:nth-child(1) {
+    background-color: rgb(0, 0, 0);
+    color: #fff; 
+}
+
+table tr:nth-child(3) {
+    background-color: rgb(32, 32, 32);
+    color: #fff; 
+}
+
+table tr:nth-child(5) {
+    background-color: rgb(32, 32, 32);
+    color: #fff; 
+}
+
+table tr:nth-child(7) {
+    background-color: rgb(32, 32, 32);
+    color: #fff; 
+}
+
+table tr:nth-child(9) {
+    background-color: rgb(32, 32, 32);
+    color: #fff; 
+}
