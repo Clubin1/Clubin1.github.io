@@ -1,0 +1,26 @@
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.form_wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.input_margin{
+    margin-top: 1rem;
+}
+
+form input{
+    background-color: rgb(44, 44, 44);
+    color:white;
+    border: 2px dotted rgb(248, 17, 55);
+    padding: .5rem .5rem .5rem .5rem;
+}
+
+input, select, textarea{
+    color:white;
+}
