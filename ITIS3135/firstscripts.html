@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Justin Tubay ITIS3135 First Script</title>
+    <script src="./scripts/defaultscripts.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <h1>Justin Tubay * ITIS 3135 Web-App Design and Development</h1>
+      </div>
+    </header>
+    <main>
+        <div style="margin-top:4rem; display: flex; flex-direction: column;">
+          <h1 style="color:white">Person Form</h1>
+          <textarea style="margin-top: 1rem" id="name" placeholder="Enter your name"></textarea>
+          <textarea style="margin-top: 1rem" id="mood" placeholder="how are you feeling?"></textarea>
+          <button style="margin-top: 1rem" onclick="submitForm()">Submit information</button>
+          <p style="margin-top: 1rem; color:white" id="details"></p>
+        </div>
+        <div class="function_container">
+          <h1 style="color:white">Test out all our features</h1>
+          <button style="margin-top: 1rem" onclick="getQoute()">Get Qoute</button>
+          <p style="margin-top: 1rem; color:white" id="qoute"></p>
+          <button style="margin-top: 1rem" onclick="submitQuestion()">Ask a question</button>
+          <button style="margin-top: 1rem" onclick="submitInterest()">Submit Interest</button>
+          <button style="margin-top: 1rem" onclick="submitFeedback()">How Did We Do?</button>
+          <h1 style="color:white">Open a Ticket</h1>
+          <textarea style="margin-top: 1rem" id="ticket" placeholder="Ticket Subject"></textarea>
+          <textarea style="margin-top: 1rem" id="body" placeholder="How can we help?"></textarea>
+          <button style="margin-top: 1rem" onclick="submitTicket()">Submit Ticket</button>
+        </div> 
+    </main>
+    <footer class="footer">
+      <a href="../NeroDev/home.html"><h2>Page Built by Nero Studios</h2></a>
+      <p>You think it, we build it!</p>
+      <div class="footer_row">
+          <a href="/index.html">Home</a>
+          <a href="../ITIS3135/components/table.html">Tables</a>
+          <a href="../ITIS3135/components/form.html">Form</a>
+          <a href="./website_evaluations.html">Web Evaluations</a>
+          <a href="#">First Scripts</a>
+
+      </div>
+      <div class="footer_row">
+        <img alt="CSS Validator" src="./images/button_validation_css.png">
+        <img alt="HTML Validator" src="./images/button_validation_html5.png">
+      </div>
+    </footer>
+  </body>
+</html>
