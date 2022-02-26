@@ -188,3 +188,21 @@ a{
   justify-content: center;
   flex-direction: column;
 }
+
+.main-container{
+  height: 70vh;
+}
+
+.main-title{
+  color:white;
+  margin-bottom: 3rem;
+}
+
+.main-button{
+  margin-top: 3rem;
+  width: 10rem;
+  height: 2rem;
+  background-color: rgb(207, 26, 96);
+  color:white;
+  border-color: 2px solid rgb(207, 26, 96);
+}
