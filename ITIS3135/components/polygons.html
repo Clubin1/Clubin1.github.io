@@ -10,32 +10,67 @@
   </head>
   <body>
     <header>
-      <div class="nav">
-        <h1>Justin Tubay * ITIS 3135 Web-App Design and Development</h1>
-      </div>
-    </header>
+        <div class="navbar">
+          <a href="/ITIS3135/index.html">JT * ITIS 3135 Web-App Design and Development</a>
+          <a id="lowercase" href="/ITIS3135/index.html">Home</a>
+          <div class="dropdown">
+          <button class="dropbtn">Components</button>
+          <div class="content">
+          <a href="./table.html">Tables</a>
+          <a href="./form.html">Forms</a>
+          <a href="./polygons.html">Polygons</a>
+          <a href="../website_evaluations.html">Web Evalutaions</a>
+          <a href="../firstscripts.html">First Scripts</a>
+          </div>
+          </div>
+          <a id="lowercase" href="../stuff/website_stuff/website_stuff_2/MY_WEB PAGE-.html">Whimsical Brand</a>
+  
+          <a id="lowercase" href="../../NeroDev/home.html">Brand</a>
+
+          </div>
+          </div>
+      </header>
     <main class="main-container">
-        <h1 class="main-title">Jobless Taco Terrier would like you to enter a number!</h1>
+        <h1 class="main-title-thing">Justin Tubay, 3135, Polygons Page</h1>
+        <h3 class="main-title">Jobless Taco Terrier would like you to enter a number!</h3>
         <img src="https://i.pinimg.com/474x/38/3f/9d/383f9d8b9958acba6f5dcdc2ac59966a--taco-thursday-taco-taco.jpg"></img>
         <button class="main-button" onclick="getShape()">Get Shape</button>
         <h1 id="output" class="main-title"></h1>
     </main>
-    <footer class="footer">
-        <a href="../../NeroDev/home.html"><h2>Page Built by Nero Studios</h2></a>
-        <p>You think it, we build it!</p>
-      <div class="footer_row">
-        <a href="../index.html">Home</a>
-        <a href="./table.html">Tables</a>
-        <a href="./polygons.html">Polygons</a>
-
-        <a href="#">Form</a>
-        <a href="../website_evaluations.html">Web Evaluations</a>
-      </div>
-      <div class="footer_row">
-        <img alt="CSS Validator" src="../images/button_validation_css.png">
-        <img alt="HTML Validator" src="../images/button_validation_html5.png">
-      </div>
-    </footer>
-    <script src="../scripts/polygons.js"></script>
-  </body>
+    <footer>
+        <div class="top_header">
+        <section>
+        <span><i class="fa fa-map-marker"></i></span>
+        </section>
+        <section>
+        <span><i class="fa fa-phone"></i></span>
+        </section>
+        <section>
+        <span><i class="fa fa-envelope"></i></span>
+        </section>
+        </div>
+        <span class="border-shape"></span>
+        <div class="bottom_content">
+        <section>
+          <a href="../index.html">Home</a>
+          <a href="../components/table.html">Tables</a>
+          <a href="../components/form.html">Forms</a>
+          <a href="../components/polygons.html">Polygons</a>
+          <a href="../website_evaluations.html">Web Evaluations</a>
+          <a href="../firstscripts.html">First Scripts</a>
+        </section>
+        <div class="footer-center">
+          <a href = "" id = "validation_link_html"><img src="../images/button_validation_html5.png"></img></a>
+          <a href = "" id = "validation_link_css"><img src="../images/button_validation_css.png"></img></a>
+        </div>
+        </div>
+        <div class="copyright"> 
+          Copyright © 2021 Page built by Nero Studios
+        </div>
+        </footer>
+    </body>
+    <script>
+      document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+      document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+    </script>
 </html>

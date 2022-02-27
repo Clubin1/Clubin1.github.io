@@ -332,3 +332,21 @@ footer .bottom_content section {
 .main-title-thing {
   margin-bottom: 1rem;
 }
+
+.footer-center{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#lowercase{
+  text-transform: none;
+  font-size: .9rem;
+  font-weight: 300;
+}
+
+.main-title-thing{
+  color: white;
+  margin-top: 1rem;
+}

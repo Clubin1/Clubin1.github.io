@@ -10,11 +10,29 @@
   </head>
   <body>
     <header>
-      <div class="nav">
-        <h1>Justin Tubay * ITIS 3135 Web-App Design and Development</h1>
-      </div>
+      <div class="navbar">
+        <a href="/ITIS3135/index.html">JT * ITIS 3135 Web-App Design and Development</a>
+        <a id="lowercase" href="/ITIS3135/index.html">Home</a>
+        <div class="dropdown">
+        <button class="dropbtn">Components</button>
+        <div class="content">
+        <a href="../ITIS3135/components/table.html">Tables</a>
+        <a href="../ITIS3135/components/form.html">Forms</a>
+        <a href="../ITIS3135/components/polygons.html">Polygons</a>
+        <a href="../ITIS3135/website_evaluations.html">Web Evalutaions</a>
+        <a href="./firstscripts.html">First Scripts</a>
+        </div>
+        </div>
+        <a id="lowercase" href="../ITIS3135/stuff/website_stuff/website_stuff_2/MY_WEB PAGE-.html">Whimsical Brand</a>
+
+        <a id="lowercase" href="../NeroDev/home.html">Brand</a>
+
+        </div>
+        </div>
     </header>
     <main>
+      <h1 class="main-title-thing">Justin Tubay, 3135, Website Evaluation Page</h1>
+
         <div style="margin-top:4rem; display: flex; flex-direction: column;">
           <h1 style="color:white">Person Form</h1>
           <textarea style="margin-top: 1rem" id="name" placeholder="Enter your name"></textarea>
@@ -35,22 +53,36 @@
           <button style="margin-top: 1rem" onclick="submitTicket()">Submit Ticket</button>
         </div> 
     </main>
-    <footer class="footer">
-      <a href="../NeroDev/home.html"><h2>Page Built by Nero Studios</h2></a>
-      <p>You think it, we build it!</p>
-      <div class="footer_row">
-          <a href="/index.html">Home</a>
-          <a href="../ITIS3135/components/table.html">Tables</a>
-          <a href="../ITIS3135/components/form.html">Form</a>
-          <a href="../ITIS3135/components/polygons.html">Polygons</a>
-          <a href="../ITIS3135/website_evaluations.html">Web Evaluations</a>
-          <a href="#">First Scripts</a>
-
+    <footer>
+      <div class="top_header">
+      <section>
+      <span><i class="fa fa-map-marker"></i></span>
+      </section>
+      <section>
+      <span><i class="fa fa-phone"></i></span>
+      </section>
+      <section>
+      <span><i class="fa fa-envelope"></i></span>
+      </section>
       </div>
-      <div class="footer_row">
-        <img alt="CSS Validator" src="./images/button_validation_css.png">
-        <img alt="HTML Validator" src="./images/button_validation_html5.png">
+      <span class="border-shape"></span>
+      <div class="bottom_content">
+      <section>
+      <a href="/ITIS3135/index.html">Home</a>
+      <a href="../ITIS3135/components/table.html">Tables</a>
+      <a href="../ITIS3135/components/form.html">Forms</a>
+      <a href="../ITIS3135/components/polygons.html">Polygons</a>
+      <a href="./website_evaluations.html">Web Evaluations</a>
+      <a href="./firstscripts.html">First Scripts</a>
+      </section>
+      <div class="footer-center">
+        <a href = "" id = "validation_link_html"><img src="./images/button_validation_html5.png"></img></a>
+        <a href = "" id = "validation_link_css"><img src="./images/button_validation_css.png"></img></a>
       </div>
-    </footer>
+      </div>
+      <div class="copyright"> 
+      Copyright © 2021 Page built by Nero Studios
+      </div>
+      </footer>
   </body>
 </html>
