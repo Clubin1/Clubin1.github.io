@@ -275,7 +275,7 @@ footer .border-shape::after {
     right: 120px;
 }
 
-footer .bottom_content section {
+footer .bottom_content div {
     padding: 1.5rem 2rem;
     display: flex;
     align-items: center;
@@ -343,7 +343,7 @@ footer .bottom_content section {
   margin-bottom: 1rem;
 }
 
-#lowercase{
+#lowercase, #lowercase2{
   text-transform: none;
   font-size: .9rem;
   font-weight: 300;
