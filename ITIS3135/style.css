@@ -224,7 +224,7 @@ a {
     height: 2rem;
     background-color: rgb(207, 26, 96);
     color: white;
-    border-color: 2px solid rgb(207, 26, 96);
+    border: 2px solid rgb(207, 26, 96);
 }
 
 *,
@@ -306,7 +306,6 @@ footer .bottom_content div {
 
     .top_header section {
         margin: 40px 0;
-        align-items: left;
         justify-content: left;
     }
     footer .bottom_content section {
