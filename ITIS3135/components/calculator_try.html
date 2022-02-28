@@ -21,6 +21,9 @@
         <a href="./polygons.html">Polygons</a>
         <a href="../website_evaluations.html">Web Evalutaions</a>
         <a href="../firstscripts.html">First Scripts</a>
+        <a href="./calculator_try.html">Calculator Attempt</a>
+        <a href="./calculator_ffc.html">Calculator Right</a>
+
         </div>
         </div>
         <a id="lowercase" href="../stuff/website_stuff/website_stuff_2/MY_WEB PAGE-.html">Whimsical Brand</a>
@@ -30,32 +33,36 @@
         </div>
     </header>
     <main>
-      <div class="main main_padding">
-        <h1 class="main-title-thing">Justin Tubay, 3135, Form Page</h1>
-
-        <h1>My Form</h1>
-        <div class="form_wrapper">
-            <form class="form" action="#">
-                <input class="input_margin" placeholder="Name" type="text"></input>
-                <input class="input_margin" placeholder="Number" type="text"></input>
-                <input class="input_margin" placeholder="Email" type="email"></input>
-                <div class="input_group">
-                    <p class="input_margin">Are you looking for a new website?</p>
-                    <input class="input_margin" type="radio"> Yes</input>
-                    <input class="input_margin" type="radio"> No</input>
-                </div>
-                <div class="input_group">
-                    <p class="input_margin">What best describes your needs?</p>
-                    <input class="input_margin" type="checkbox"> Website Redesign</input>
-                    <input class="input_margin" type="checkbox"> New Website</input>
-                    <input class="input_margin" type="checkbox"> Software Design</input>
-                </div>
-
-                <button class="input_margin button">Reset</button>
-                <button class="input_margin button">Submit</button>
-            </form>
+      <!--NOTES ON JAVASCRIPT FILE-->
+        <h1 class="main-title-thing">Justin Tubay, 3135, Calculator Try Page</h1>
+        <div class="calculator">
+          <div class="calculator-row">
+            <h1 id="output" class="calc-num">0</h1>
+          </div>
+          <div class="calculator-row">
+            <button class="calc-btn" onclick=clickSeven()>7</button>
+            <button class="calc-btn"onclick=clickEight()>8</button>
+            <button class="calc-btn"onclick=clickNine()>9</button>
+            <button class="calc-btn" >/</button>
+          </div>
+          <div class="calculator-row">
+            <button class="calc-btn"onclick=clickFour()>4</button>
+            <button class="calc-btn"onclick=clickFive()>5</button>
+            <button class="calc-btn"onclick=clickSix()>6</button>
+            <button class="calc-btn">X</button>
+          </div>
+          <div class="calculator-row">
+            <button class="calc-btn"onclick=clickOne()>1</button>
+            <button class="calc-btn"onclick=clickTwo()>2</button>
+            <button class="calc-btn"onclick=clickThree()>3</button>
+            <button class="calc-btn">-</button>
+          </div>
+          <div class="calculator-row">
+            <button class="calc-btn" onclick=clickZero()>0</button>
+            <button class="calc-btn">=</button>
+            <button class="calc-btn">+</button>
+          </div>
         </div>
-      </div>
     </main>
     <footer>
       <div class="top_header">
@@ -80,6 +87,7 @@
         <a href="../firstscripts.html">First Scripts</a>
         <a href="./calculator_try.html">Calculator Try</a>
         <a href="./calculator_ffc.html">Calculator Right</a>
+
       </section>
       <div class="footer-center">
         <a href = "" id = "validation_link_html"><img src="../images/button_validation_html5.png"></img></a>
@@ -91,6 +99,7 @@
       </div>
       </footer>
   </body>
+  <script src="../scripts/calculator_try.js"></script>
   <script>
     document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
     document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
