@@ -9,13 +9,31 @@
   </head>
   <body>
     <header>
-      <div class="nav">
-        <h1>Justin Tubay * ITIS 3135 Web-App Design and Development</h1>
-      </div>
+      <div class="navbar">
+        <a href="/ITIS3135/index.html">JT * ITIS 3135 Web-App Design and Development</a>
+        <a href="/ITIS3135/index.html">Home</a>
+        <div class="dropdown">
+        <button class="dropbtn">Components</button>
+        <div class="content">
+        <a href="../ITIS3135/components/table.html">Tables</a>
+        <a href="../ITIS3135/components/form.html">Forms</a>
+        <a href="../ITIS3135/components/polygons.html">Polygons</a>
+        <a href="../ITIS3135/website_evaluations.html">Web Evalutaions</a>
+        <a href="./firstscripts.html">First Scripts</a>
+        <a href="./components/calculator_try.html">Calculator Try</a>
+        <a href="./components/calculator_ffc.html">Calculator Right</a>
+        </div>
+        </div>
+        <a id="lowercase2" href="./stuff/website_stuff/website_stuff_2/MY_WEBPAGE-.html">Whimsical Brand</a>
+
+        <a id="lowercase" href="../NeroDev/home.html">Brand</a>
+
+        </div>
+        </div>
     </header>
     <main>
         <div class="bland_landing">
-            <h2 class="bland_title">Website Evaluations</h2>
+          <h1 class="main-title-thing">Justin Tubay, 3135, Website Evaluation Page</h1>
         </div>
         <section class="website_container">
             <a href="https://habitica.com/static/home"><h3>Habitica</h3></a>
@@ -47,20 +65,31 @@
             </ul>
         </section>
     </main>
-    <footer class="footer">
-        <a href="../NeroDev/home.html"><h2>Page Built by Nero Studios</h2></a>
-        <p>You think it, we build it!</p>
-        <div class="footer_row">
-            <a href="/index.html">Home</a>
-            <a href="../ITIS3135/components/table.html">Tables</a>
-            <a href="../ITIS3135/components/form.html">Form</a>
-            <a href="#">Web Evaluations</a>
-            <a href="./firstscripts.html">First Scripts</a>
-        </div>
-        <div class="footer_row">
-          <img alt="CSS Validator" src="./images/button_validation_css.png">
-          <img alt="HTML Validator" src="./images/button_validation_html5.png">
-        </div>
+    <footer>
+    
+      <div class="bottom_content">
+      <div>
+      <a href="/ITIS3135/index.html">Home</a>
+      <a href="../ITIS3135/components/table.html">Tables</a>
+      <a href="../ITIS3135/components/form.html">Forms</a>
+      <a href="../ITIS3135/components/polygons.html">Polygons</a>
+      <a href="./website_evaluations.html">Web Evaluations</a>
+      <a href="./firstscripts.html">First Scripts</a>
+      <a href="./components/calculator_try.html">Calculator Try</a>
+      <a href="./components/calculator_ffc.html">Calculator Right</a>
+      </div>
+      <div class="footer-center">
+        <a href = "" id = "validation_link_html"><img src="./images/button_validation_html5.png"></img></a>
+        <a href = "" id = "validation_link_css"><img src="./images/button_validation_css.png"></img></a>
+      </div>
+      </div>
+      <div class="copyright"> 
+        Copyright © 2021 Page built by Nero Studios
+      </div>
       </footer>
   </body>
+  <script>
+    document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+    document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+  </script>
 </html>

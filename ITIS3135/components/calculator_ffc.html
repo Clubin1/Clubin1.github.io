@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../style.css"/>
     <link rel="stylesheet" href="../styles/form.css" />
-    <title>Justin Tubay ITIS3135 Form</title>
+    <title>Justin Tubay Calculator Right</title>
   </head>
   <body>
     <header>
       <div class="navbar">
         <a href="/ITIS3135/index.html">JT * ITIS 3135 Web-App Design and Development</a>
-        <a id="lowercase" href="/ITIS3135/index.html">Home</a>
+        <a id="lowercase3" href="/ITIS3135/index.html">Home</a>
         <div class="dropdown">
         <button class="dropbtn">Components</button>
         <div class="content">
@@ -21,44 +21,44 @@
         <a href="./polygons.html">Polygons</a>
         <a href="../website_evaluations.html">Web Evalutaions</a>
         <a href="../firstscripts.html">First Scripts</a>
+        <a href="./calculator_try.html">Calculator Attempt</a>
+        <a href="./calculator_ffc.html">Calculator Right</a>
         </div>
         </div>
         <a id="lowercase2" href="../stuff/website_stuff/website_stuff_2/MY_WEBPAGE-.html">Whimsical Brand</a>
         <a id="lowercase" href="../../NeroDev/home.html">Brand</a>
 
-        </div>
-        </div>
+    </div>
     </header>
     <main>
-      <div class="main main_padding">
-        <h1 class="main-title-thing">Justin Tubay, 3135, Form Page</h1>
-
-        <h1>My Form</h1>
-        <div class="form_wrapper">
-            <form class="form" action="#">
-                <input class="input_margin" placeholder="Name" type="text"></input>
-                <input class="input_margin" placeholder="Number" type="text"></input>
-                <input class="input_margin" placeholder="Email" type="email"></input>
-                <div class="input_group">
-                    <p class="input_margin">Are you looking for a new website?</p>
-                    <input class="input_margin" type="radio"> Yes</input>
-                    <input class="input_margin" type="radio"> No</input>
-                </div>
-                <div class="input_group">
-                    <p class="input_margin">What best describes your needs?</p>
-                    <input class="input_margin" type="checkbox"> Website Redesign</input>
-                    <input class="input_margin" type="checkbox"> New Website</input>
-                    <input class="input_margin" type="checkbox"> Software Design</input>
-                </div>
-
-                <button class="input_margin button">Reset</button>
-                <button class="input_margin button">Submit</button>
-            </form>
-        </div>
-      </div>
+        <h1 class="main-title-thing">Justin Tubay, 3135, Calculator Right Page</h1>
+        <div class="container">
+            <div class="calculator">
+              <div class="calculator__display">0</div>
+        
+              <div class="calculator__keys">
+                <button class="key--operator" data-action="add">+</button>
+                <button class="key--operator" data-action="subtract">-</button>
+                <button class="key--operator" data-action="multiply">&times;</button>
+                <button class="key--operator" data-action="divide">÷</button>
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>0</button>
+                <button data-action="decimal">.</button>
+                <button data-action="clear">AC</button>
+                <button class="key--equal" data-action="calculate">=</button>
+              </div>
+            </div>
+          </div>
     </main>
     <footer>
-
       <div class="bottom_content">
       <div>
         <a href="../index.html">Home</a>
@@ -71,17 +71,18 @@
         <a href="./calculator_ffc.html">Calculator Right</a>
       </div>
       <div class="footer-center">
-        <a href = "" id = "validation_link_html"><img src="../images/button_validation_html5.png"></img></a>
-        <a href = "" id = "validation_link_css"><img src="../images/button_validation_css.png"></img></a>
+        <a href = "" id = "validation_link_html"><img alt="html button" src="../images/button_validation_html5.png"></a>
+        <a href = "" id = "validation_link_css"><img alt="css button" src="../images/button_validation_css.png"></a>
       </div>
       </div>
       <div class="copyright"> 
         Copyright © 2021 Page built by Nero Studios
       </div>
       </footer>
-  </body>
+      <script src="../scripts/calculator_ffs.js"></script>
   <script>
     document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
     document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
   </script>
+  </body>
 </html>

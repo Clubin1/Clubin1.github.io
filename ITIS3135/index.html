@@ -9,9 +9,27 @@
   </head>
   <body>
     <header>
-      <div class="nav">
-        <h1>Justin Tubay * ITIS 3135 Web-App Design and Development</h1>
-      </div>
+      <div class="navbar">
+        <a href="/ITIS3135/index.html">JT * ITIS 3135 Web-App Design and Development</a>
+        <a id="lowercase" href="/ITIS3135/index.html">Home</a>
+        <div class="dropdown">
+        <button class="dropbtn">Components</button>
+        <div class="content">
+        <a href="../ITIS3135/components/table.html">Tables</a>
+        <a href="../ITIS3135/components/form.html">Forms</a>
+        <a href="../ITIS3135/components/polygons.html">Polygons</a>
+        <a href="../ITIS3135/website_evaluations.html">Web Evalutaions</a>
+        <a href="./firstscripts.html">First Scripts</a>
+        <a href="./components/calculator_try.html">Calculator Try</a>
+        <a href="./components/calculator_ffc.html">Calculator Right</a>
+        </div>
+        </div>
+        <a id="lowercase2" href="./stuff/website_stuff/website_stuff_2/MY_WEBPAGE-.html">Whimsical Brand</a>
+
+        <a id="lowercase" href="../NeroDev/home.html">Brand</a>
+
+        </div>
+        </div>
     </header>
     <main>
       <div class="landingSection">
@@ -27,7 +45,9 @@
 
       <div class="main">
         <div class="main_item personal">
-          <h1>Personal Information</h1>
+          <h1 class="main-title-thing">Justin Tubay, 3135, Introduction Page</h1>
+          <img class="image" src="https://media-exp1.licdn.com/dms/image/C4E03AQF8SSqB79TT6g/profile-displayphoto-shrink_200_200/0/1625778422350?e=1649289600&v=beta&t=HOS5CrbPpWBO11tHEup9P2et1DRqFQpzLEiACo0Fmqk"></img>
+          <h2>Personal Information</h2>
           <p>
             My name is Justin Tubay and I was born in Charlotte, North Carolina.
             I am 18 and currently a sophomore majoring in Computer Science. I
@@ -36,7 +56,7 @@
           </p>
         </div>
         <div class="main_item professional">
-          <h1>Professional Information</h1>
+          <h2>Professional Information</h2>
           <p>
             I have been coding for roughly 3 years now, I started in high school
             and was set on practicing my skills with freelancing. I did
@@ -46,14 +66,14 @@
           </p>
         </div>
         <div class="main_item academic_background">
-          <h1>Academic Background</h1>
+          <h2>Academic Background</h2>
           <p>
             I graduated from Olympic High School and I am currently getting a BA
             in Computer Science.
           </p>
         </div>
         <div class="main_item coding_stuff">
-          <h1>Coding Background</h1>
+          <h2>Coding Background</h2>
           <p>
             I mostly use Windows 10 for my operating system, however I switch
             between Windows and MacOS. I am currently taking Intro to Computer
@@ -63,7 +83,7 @@
         </div>
 
         <div class="main_item misc_stuff">
-          <h1>Funny Story + Fun Fact</h1>
+          <h2>Funny Story + Fun Fact</h2>
           <p>
             I used to hate programming, and even though I took computer science in High School I despised it.
             I one day came across Codecademy and learning website design rekindled my relationship with coding!
@@ -72,21 +92,31 @@
         </div>
       </div>
     </main>
-    <footer class="footer">
-      <a href="../NeroDev/home.html"><h2>Page Built by Nero Studios</h2></a>
-      <p>You think it, we build it!</p>
-      <div class="footer_row">
-          <a href="/index.html">Home</a>
-          <a href="../ITIS3135/components/table.html">Tables</a>
-          <a href="../ITIS3135/components/form.html">Form</a>
-          <a href="./website_evaluations.html">Web Evaluations</a>
-          <a href="./firstscripts.html">First Scripts</a>
-
+    <footer>
+  
+      <div class="bottom_content">
+      <div>
+      <a href="/ITIS3135/index.html">Home</a>
+      <a href="../ITIS3135/components/table.html">Tables</a>
+      <a href="../ITIS3135/components/form.html">Forms</a>
+      <a href="../ITIS3135/components/polygons.html">Polygons</a>
+      <a href="../ITIS3135/website_evaluations.html">Web Evaluations</a>
+      <a href="./firstscripts.html">First Scripts</a>
+      <a href="./components/calculator_try.html">Calculator Try</a>
+      <a href="./components/calculator_ffc.html">Calculator Right</a>
       </div>
-      <div class="footer_row">
-        <img alt="CSS Validator" src="./images/button_validation_css.png">
-        <img alt="HTML Validator" src="./images/button_validation_html5.png">
+      <div class="footer-center">
+        <a href = "" id = "validation_link_html"><img src="./images/button_validation_html5.png"></img></a>
+        <a href = "" id = "validation_link_css"><img src="./images/button_validation_css.png"></img></a>
       </div>
-    </footer>
+      </div>
+      <div class="copyright"> 
+      Copyright © 2021 Page built by Nero Studios
+      </div>
+      </footer>
   </body>
+  <script>
+    document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+    document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+  </script>
 </html>

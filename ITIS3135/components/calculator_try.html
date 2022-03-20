@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css"/>
+    <link rel="stylesheet" href="../styles/form.css" />
+    <title>Justin Tubay ITIS3135 Calculator Try</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <a href="/ITIS3135/index.html">JT * ITIS 3135 Web-App Design and Development</a>
+        <a id="lowercase3" href="/ITIS3135/index.html">Home</a>
+        <div class="dropdown">
+        <button class="dropbtn">Components</button>
+        <div class="content">
+        <a href="./table.html">Tables</a>
+        <a href="./form.html">Forms</a>
+        <a href="./polygons.html">Polygons</a>
+        <a href="../website_evaluations.html">Web Evalutaions</a>
+        <a href="../firstscripts.html">First Scripts</a>
+        <a href="./calculator_try.html">Calculator Attempt</a>
+        <a href="./calculator_ffc.html">Calculator Right</a>
+
+        </div>
+        </div>
+        <a id="lowercase2" href="../stuff/website_stuff/website_stuff_2/MY_WEBPAGE-.html">Whimsical Brand</a>
+        <a id="lowercase" href="../../NeroDev/home.html">Brand</a>
+
+        </div>
+    </header>
+    <main>
+      <!--NOTES ON JAVASCRIPT FILE-->
+        <h1 class="main-title-thing">Justin Tubay, 3135, Calculator Try Page</h1>
+        <div class="calculator">
+          <div class="calculator-row">
+            <h1 id="output" class="calc-num">0</h1>
+          </div>
+          <div class="calculator-row">
+            <button class="calc-btn" onclick=clickSeven()>7</button>
+            <button class="calc-btn" onclick=clickEight()>8</button>
+            <button class="calc-btn" onclick=clickNine()>9</button>
+            <button class="calc-btn" >/</button>
+          </div>
+          <div class="calculator-row">
+            <button class="calc-btn" onclick=clickFour()>4</button>
+            <button class="calc-btn" onclick=clickFive()>5</button>
+            <button class="calc-btn" onclick=clickSix()>6</button>
+            <button class="calc-btn">X</button>
+          </div>
+          <div class="calculator-row">
+            <button class="calc-btn" onclick=clickOne()>1</button>
+            <button class="calc-btn" onclick=clickTwo()>2</button>
+            <button class="calc-btn" onclick=clickThree()>3</button>
+            <button class="calc-btn">-</button>
+          </div>
+          <div class="calculator-row">
+            <button class="calc-btn" onclick=clickZero()>0</button>
+            <button class="calc-btn">=</button>
+            <button class="calc-btn">+</button>
+          </div>
+        </div>
+    </main>
+    <footer>
+  
+      <div class="bottom_content">
+      <div>
+        <a href="../index.html">Home</a>
+        <a href="../components/table.html">Tables</a>
+        <a href="../components/form.html">Forms</a>
+        <a href="../components/polygons.html">Polygons</a>
+        <a href="../website_evaluations.html">Web Evaluations</a>
+        <a href="../firstscripts.html">First Scripts</a>
+        <a href="./calculator_try.html">Calculator Try</a>
+        <a href="./calculator_ffc.html">Calculator Right</a>
+
+      </div>
+      <div class="footer-center">
+        <a href = "" id = "validation_link_html"><img alt="html button" src="../images/button_validation_html5.png"/></a>
+        <a href = "" id = "validation_link_css"><img alt="css button" src="../images/button_validation_css.png"/></a>
+      </div>
+      </div>
+      <div class="copyright"> 
+        Copyright © 2021 Page built by Nero Studios
+      </div>
+      </footer>
+      <script src="../scripts/calculator_try.js"></script>
+      <script>
+        document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+        document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+      </script>
+  </body>
+</html>
