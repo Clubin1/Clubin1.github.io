@@ -75,16 +75,16 @@
       </div>
       <div class="footer-center">
         <a href = "" id = "validation_link_html"><img alt="HTML Button" src="../images/button_validation_html5.png"></a>
-        <a href = "" id = "validation_link_css"><img alt="CSS Button"src="../images/button_validation_css.png"></a>
+        <a href = "" id = "validation_link_css"><img alt="CSS Button" src="../images/button_validation_css.png"></a>
       </div>
       </div>
       <div class="copyright"> 
         Copyright © 2021 Page built by Nero Studios
       </div>
       </footer>
+      <script>
+        document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+        document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+      </script>
   </body>
-  <script>
-    document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
-    document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
-  </script>
 </html>
