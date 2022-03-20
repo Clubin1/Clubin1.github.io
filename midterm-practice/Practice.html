@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<title>Tuxedo Cat Coffee</title>
+		<meta charset="utf-8" />
+		<link type="text/css" rel="stylesheet" href="Practice.css">
+		<script src="Practice.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Tuxedo Cat Coffee</h1>
+			<img src="images/logo.png" alt="Morning Coffee"/>
+		</header>
+		
+		<main>
+			<form id="order_form" name="order_form" action="#" method="get">
+				<section id="menu">
+					<h2>Menu</h2>
+					<p>Click an item to add it to your order.</p>
+					<div class="order_rows">
+						<div onclick=addItem1() class="order_item">
+							<img src="./images/cappuccino.jpg" alt="Cappucino cup">
+						</div>
+						<div onclick=addItem2() class="order_item">
+							<img src="./images/espresso.jpg" alt="Espresso cup">
+						</div>
+					</div>
+				</section>
+
+				<section>
+						<h2>Your Order</h2>
+						<p id="order">
+							<p id="description"></p>
+							<br>
+						</p>
+						<!-- Emphasize  the total -->
+						<p id="total">$0.00&nbsp;</p>
+
+					<div id="buttons">
+						<span>
+						<!-- apply appropriate styling in the CSS file for the buttons. -->
+							<input onclick=placeOrder() type="button"  name="place_order" id="place_order" value="Place Order">
+							<input onclick=clearOrder() type="button"  name="clear_order" id="clear_order" value="Clear Order">
+							<input onclick=contactUs() type="button"  name="Contact Us" id="contact_us" value="Contact Us">
+					</span>			            		
+					</div>
+				</section>   
+			</form>
+		</main> 
+		
+	<footer>
+		<br/>
+		<a href="https://validator.w3.org/">Validate HTML</a>
+		<br/>
+		<a href="https://jigsaw.w3.org/css-validator/">Validate CSS</a>
+	</footer>
+		
+	<script src="./Practice.js"></script>
+	</body>
+</html>
