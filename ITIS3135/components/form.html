@@ -42,17 +42,28 @@
                 <input class="input_margin" placeholder="Email" type="email">
                 <div class="input_group">
                     <p class="input_margin">Are you looking for a new website?</p>
-                    <input class="input_margin" type="radio"> Yes
-                    <input class="input_margin" type="radio"> No
+                    <input name="group" class="input_margin" type="radio"> Yes
+                    <input name="group" class="input_margin" type="radio"> No
                 </div>
                 <div class="input_group">
-                    <p class="input_margin">What best describes your needs?</p>
-                    <input class="input_margin" type="checkbox"> Website Redesign
-                    <input class="input_margin" type="checkbox"> New Website
-                    <input class="input_margin" type="checkbox"> Software Design
-                </div>
+                  <p class="input_margin">What best describes your needs?</p>
+                  <input class="input_margin" type="checkbox"> Website Redesign
+                  <input class="input_margin" type="checkbox"> New Website
+                  <input class="input_margin" type="checkbox"> Software Design
+              </div>
+              <div class="input_group">
+                <p class="input_margin">Select a category</p>
+                <select class="dropdown" name="categories">
+                  <option value=""></option>
+                  <option value="ecommerce">ecommerce</option>
+                  <option value="portfolio">portfolio</option>
+                  <option value="corporate">corporate</option>
+                  <option value="personal">personal</option>
+                  <option value="other">other</option>
+                </select>
+            </div>
 
-                <button class="input_margin button">Reset</button>
+                <input type="reset" class="input_margin button">
                 <button class="input_margin button">Submit</button>
             </form>
         </div>
