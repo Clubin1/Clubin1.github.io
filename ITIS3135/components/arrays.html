@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../style.css"/>
-    <link rel="stylesheet" href="../styles/form.css" />
+    <link rel="stylesheet" href="../styles/arrays.css">
     <title>Justin Tubay Calculator Right</title>
   </head>
   <body>
@@ -31,31 +31,33 @@
 
     </div>
     </header>
-    <main>
+    <main style="min-height:80vh">
         <h1 class="main-title-thing">Justin Tubay, 3135, Arrays page</h1>
-        <h2>Add Salary</h2>
-        <label>Enter Name : <input type="text" id="name" required autofocus><span id="namenull"></span></label> <br>
-        <label>Enter Salary : <input type="number" id="salary" required><span id="salarynull"></span></label><br>
-        <button onclick="addSalary()">Add Salary</button>
-    </div>
-    <hr>
-    <div>
-        <h2>Display Salary</h2>
-        <button onclick="displaySalary()">Display Salary</button>
-        <table id="result_table"></table>
-    </div>
-    <hr>
-    <div>
-        <h2>Display Result</h2>
-        <button onclick="displayResults()">Display Result</button>
-        <div id="results"></div>
-    </div>
-    <hr>
-    <div>
-        <h2>Display Employees</h2>
-        <button onclick="displayEmployees()">Display Employees In Dropdown</button><br>
-        <select id="employees"></select>
-    </div>
+        <div class="center-array">
+          <h2 class="array-color push-down">Add Salary</h2>
+          <label class="array-color" >Enter Name : <input type="text" id="name" required autofocus><span id="namenull"></span></label> <br>
+          <label class="array-color"> Enter Salary : <input type="number" id="salary" required><span id="salarynull"></span></label><br>
+          <button onclick="addSalary()">Add Salary</button>
+      </div>
+      <hr>
+      <div class="center">
+          <h2 class="array-color push-both" >Display Salary</h2>
+          <button onclick="displaySalary()">Display Salary</button>
+          <table id="result_table"></table>
+      </div>
+      <hr>
+      <div class="center">
+          <h2 class="array-color push-both" >Display Result</h2>
+          <button onclick="displayResults()">Display Result</button>
+          <div id="results"></div>
+      </div>
+      <hr>
+      <div class="center">
+          <h2 class="array-color push-both" >Display Employees</h2>
+          <button onclick="displayEmployees()">Display Employees In Dropdown</button><br>
+          <select id="employees"></select>
+      </div>
+        </div>
     </main>
     <footer>
       <div class="bottom_content">

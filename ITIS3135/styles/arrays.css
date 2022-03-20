@@ -1,0 +1,45 @@
+.array-color{
+    color: white!important;
+}
+.center {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input, select{
+    background-color: #272c3691 !important;
+    border: 1px solid rgba(245, 23, 60, 0.651);
+    padding: 5px;
+    color: rgb(245, 23, 60);
+}
+button {
+    background-color: #272c3691 !important;
+    border: 1px solid rgba(245, 23, 60, 0.651);
+    height: 3rem;
+    color: rgb(245, 23, 60);
+    transition: 200ms ease all;
+    min-width: 10rem;
+}
+
+button:hover {
+    background-color: #272c36 !important;
+
+}
+
+h2{
+    color:rgb(153, 153, 153)!important;
+}
+
+p , tr, td{
+    color: rgb(204, 34, 34)!important;
+}
+.push-down{
+    margin-bottom: 1rem;
+}
+
+.push-both{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}

@@ -442,3 +442,11 @@ footer .bottom_content div {
   grid-column: -2;
   grid-row: 2 / span 4;
 }
+
+.center-array{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
