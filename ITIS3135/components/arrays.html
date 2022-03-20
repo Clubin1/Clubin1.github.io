@@ -33,18 +33,29 @@
     </header>
     <main>
         <h1 class="main-title-thing">Justin Tubay, 3135, Arrays page</h1>
-
-        <label for="cars">Choose a car:</label>
-
-        <select name="cars" id="cars">
-        <option value="volvo">Volvo</option>
-        <option value="saab">Saab</option>
-        <option value="mercedes">Mercedes</option>
-        <option value="audi">Audi</option>
-        </select>
-        <button>Button One</button>
-        <button>Button One</button>
-        <button>Button One</button>
+        <h2>Add Salary</h2>
+        <label>Enter Name : <input type="text" id="name" required autofocus><span id="namenull"></span></label> <br>
+        <label>Enter Salary : <input type="number" id="salary" required><span id="salarynull"></span></label><br>
+        <button onclick="addSalary()">Add Salary</button>
+    </div>
+    <hr>
+    <div>
+        <h2>Display Salary</h2>
+        <button onclick="displaySalary()">Display Salary</button>
+        <table id="result_table"></table>
+    </div>
+    <hr>
+    <div>
+        <h2>Display Result</h2>
+        <button onclick="displayResults()">Display Result</button>
+        <div id="results"></div>
+    </div>
+    <hr>
+    <div>
+        <h2>Display Employees</h2>
+        <button onclick="displayEmployees()">Display Employees In Dropdown</button><br>
+        <select id="employees"></select>
+    </div>
     </main>
     <footer>
       <div class="bottom_content">
