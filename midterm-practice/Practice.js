@@ -39,13 +39,7 @@ window.onload = function() {
 		}
 	}
 
-	placeOrder = () => {
-		if (cartPrice !== 0.00) {
-			alert(`Order placed, total: ${cartPrice.toFixed(2)}`)
-		} else {
-			alert("add items to your cart to order")
-		}
-	}
+
 	clearOrder = () => {
 		remove = document.getElementById("description")
 		isOneClick = true
@@ -53,6 +47,14 @@ window.onload = function() {
 		cartPrice = 0.00
 		remove.innerHTML = ""
 		document.getElementById("total").innerHTML = "$0.00"
+	}
+	placeOrder = () => {
+		if (cartPrice !== 0.00) {
+			clearOrder()
+			alert(`Order placed`)
+		} else {
+			alert("add items to your cart to order")
+		}
 	}
 	contactUs = () => {
 		alert("Contact us at test@gmail.com")
