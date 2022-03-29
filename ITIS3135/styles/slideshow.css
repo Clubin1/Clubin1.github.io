@@ -1,0 +1,20 @@
+#slideshow {
+    margin: 4rem auto;
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    padding: .7rem;
+  }
+  
+  #slideshow > div {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+  }
+
+  .imageItem{
+      height: 20rem;
+      width: 20rem;
+  }
