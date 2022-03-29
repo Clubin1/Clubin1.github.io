@@ -93,14 +93,13 @@
   </script>
   <script>
       $("#slideshowContainer > div:gt(0)").hide();
-
         setInterval(function() { 
         $('#slideshowContainer > div:first')
         .fadeOut(500)
         .next()
         .fadeIn(500)
         .end()
-        .appendTo('#slideshow');
+        .appendTo('#slideshowContainer');
         }, 2000);
   </script>
 
