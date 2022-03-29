@@ -1,4 +1,4 @@
-#slideshow {
+#slideshowContainer {
     margin: 4rem auto;
     position: relative;
     width: 20rem;
@@ -6,7 +6,7 @@
     padding: .7rem;
   }
   
-  #slideshow > div {
+  #slideshowContainer > div {
     position: absolute;
     top: 1rem;
     left: 1rem;

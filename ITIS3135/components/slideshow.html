@@ -37,7 +37,7 @@
         <h1 class="main-title-thing">Justin Tubay, 3135, Slideshow page</h1>
         <h1 class="main-title-thing">My Amazing dog gallary</h1>
 
-        <div id="slideshow">
+        <div id="slideshowContainer">
             
             <div>
               <img alt="Slide show image" class="imageItem" src="https://www.thesprucepets.com/thmb/ddB2IQcg6Ze9VS7Of_r_I613kEg=/434x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/50970103_1828011537302747_5054431816510099981_n-5c73efe3c9e77c00016bfdf2.jpg">
@@ -92,16 +92,16 @@
     document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
   </script>
   <script>
-      $("#slideshow > div:gt(0)").hide();
+      $("#slideshowContainer > div:gt(0)").hide();
 
         setInterval(function() { 
-        $('#slideshow > div:first')
-        .fadeOut(1000)
+        $('#slideshowContainer > div:first')
+        .fadeOut(500)
         .next()
-        .fadeIn(1000)
+        .fadeIn(500)
         .end()
         .appendTo('#slideshow');
-        }, 3000);
+        }, 2000);
   </script>
 
   </body>
