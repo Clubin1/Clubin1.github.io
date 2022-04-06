@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css"/>
+    <link rel="stylesheet" href="../styles/form.css" />
+    <title>Justin Tubay ITIS3135 Design Proposal Page</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <a href="/ITIS3135/index.html">JT * ITIS 3135 Web-App Design and Development</a>
+        <a id="lowercase3" href="/ITIS3135/index.html">Home</a>
+        <div class="dropdown">
+        <button class="dropbtn">Components</button>
+        <div class="content">
+        <a href="./table.html">Tables</a>
+        <a href="./form.html">Forms</a>
+        <a href="./polygons.html">Polygons</a>
+        <a href="../website_evaluations.html">Web Evalutaions</a>
+        <a href="../firstscripts.html">First Scripts</a>
+        <a href="./calculator_try.html">Calculator Attempt</a>
+        <a href="./calculator_ffc.html">Calculator Right</a>
+        <a href="./arrays.html">Arrays</a>
+
+        </div>
+        </div>
+        <a id="lowercase2" href="../stuff/website_stuff/website_stuff_2/MY_WEBPAGE-.html">Whimsical Brand</a>
+        <a id="lowercase" href="../../NeroDev/home.html">Brand</a>
+
+        </div>
+    </header>
+    <main>
+      <!--NOTES ON JAVASCRIPT FILE-->
+        <h1 class="main-title-thing">Justin Tubay, 3135, Design Proposal Page</h1>
+        <p class="main-sub-title">For external client (not enrolled in this course)<br>Organization Promotion</p>
+
+        <div class="overview-section">
+            <h2 class="project-title">Mecklenburg Psychologist Association: Project Overview</h2>
+            <ul>
+                <h5>Describe your application and its purpose. </h5>
+                <li>The website is to spread information on MPA and their services.</li>
+                <h5>Intended users of the website. </h5>
+                <li>Psychologist wishing to join or people who are seeking mental health help.</li>
+                <h5>Overview of the content of the website </h5>
+                <li>The website contains basic information on what MPA is, what they do, and how to join. There is a small gallery on some members who are currently signed up.</li>
+            </ul>
+        </div>
+
+        <div class="client-section">
+            <h2 class="project-title">Client Information</h2>
+            <img alt="Nona" src="https://photos.psychologytoday.com/5368141c-46cd-11ea-a6ad-06142c356176/3/320x400.jpeg">
+            <h5>Name: Nona Patterson</h5>
+            <h5>Position: MPA Secretary</h5>
+            <h5>Email: Drnlpatterson@gmail.com</h5>
+            <h5>Phone Number: [private]</h5>
+        </div>
+        
+        <div class="wireframe-section">
+            <h2 class="project-title">Default Page Deisgn</h2>
+            <img src="../images/design.drawio.svg">
+        </div>
+
+        <div class="sitemap-section">
+            <h2 class="project-title">Website Sitemap</h2>
+            <img alt="SiteMap" src="../images/gloomap_d9f60e78.png">
+            <a href="https://www.gloomaps.com/6mtXWDpmHy">Link to Sitemap</a>
+        </div>
+
+        <div class="design-section">
+            <h2 class="project-title"> Page Design</h2>
+            <ul>
+                <h5>Home Page</h5>
+                <li>Purpose: Gives a basic overview on MPA</li>
+                <li>Audience: Other Psychologists or people seeking mental help</li>
+                <li>Content: Texts and images</li>
+                <li>Data Entry: No data entry</li>
+                <li>Hyperlinks/dropdowns: Yes, there will be links</li>
+                <li>Actions: The only actions will be to take you to the professionals page</li>
+
+                <h5>About Page</h5>
+                <li>Purpose: Provides more in-depth information on MPAs cause</li>
+                <li>Audience: People seeking to learn more</li>
+                <li>Content: Paragraphs as well as a list of all the board members</li>
+                <li>Data Entry: No data entry</li>
+                <li>Hyperlinks/dropdowns: No, there will not be links</li>
+                <li>Actions: No certain actions</li>
+
+                <h5>Contact Page</h5>
+                <li>Purpose: Provide a form of communication to MPA</li>
+                <li>Audience: People that have any questions</li>
+                <li>Content: Just a contact form with entry fields</li>
+                <li>Data Entry: Yes, user will be asked for a name, email address and the message</li>
+                <li>Hyperlinks/dropdowns: The submit button will link to a mailto: hyperlink</li>
+                <li>Actions: Form submit/send email </li>
+
+                <h5>Professionals Page</h5>
+                <li>Purpose: Have a gallery of the members that are associated with MPA. Also gives upcoming events with MPA</li>
+                <li>Audience: People that wish to learn more</li>
+                <li>Content: Gallery of members and a list of events</li>
+                <li>Data Entry: No data entry</li>
+                <li>Hyperlinks/dropdowns: No, there will not be links</li>
+                <li>Actions: No certain actions </li>
+
+                <h5>Application Page</h5>
+                <li>Purpose: Have an application form for those wishing to be an MPA member</li>
+                <li>Audience: Other Psychologists</li>
+                <li>Content: An application form, in website and pdf </li>
+                <li>Data Entry: User can enter their personal information to apply </li>
+                <li>Hyperlinks/dropdowns: Hyperlink linking to an external pdf file </li>
+                <li>Actions: Submit form </li>
+
+                <h5>Payment Page</h5>
+                <li>Purpose: Allow members signing up to purchase a subscription.</li>
+                <li>Audience: Other Psychologists</li>
+                <li>Content: An embed of paypal to pay the costs </li>
+                <li>Data Entry: No Data entry</li>
+                <li>Hyperlinks/dropdowns: Button that opens up Paypal payment </li>
+                <li>Actions: Purchase subscription </li>
+            </ul>
+        </div>
+
+        <div class="functionality-section">
+            <h2 class="project-title">Dynamic Functionality</h2>
+            <ul>
+                <h5>Transparent navbar to colored navbar (jquery/javascript)</h5>
+                <li>I will use this effect on all pages for the navbar, I have seen it at <a href="https://thenerodev.com">This Link</a></li>
+
+                <h5>Payment implementation with JavaScript and HTML</h5>
+                <li>On the payment page, I will add a paypal widget using JavaScript. I have seen at <a href="https://relaxed-fermi-db1b41.netlify.app/">here</a></li>
+            </ul>
+        </div>
+
+    </main>
+    <footer>
+  
+      <div class="bottom_content">
+      <div>
+        <a href="../index.html">Home</a>
+        <a href="../components/table.html">Tables</a>
+        <a href="../components/form.html">Forms</a>
+        <a href="../components/polygons.html">Polygons</a>
+        <a href="../website_evaluations.html">Web Evaluations</a>
+        <a href="../firstscripts.html">First Scripts</a>
+        <a href="./calculator_try.html">Calculator Try</a>
+        <a href="./calculator_ffc.html">Calculator Right</a>
+        <a href="./arrays.html">Arrays</a>
+
+      </div>
+      <div class="footer-center">
+        <a href = "" id = "validation_link_html"><img alt="html button" src="../images/button_validation_html5.png"/></a>
+        <a href = "" id = "validation_link_css"><img alt="css button" src="../images/button_validation_css.png"/></a>
+      </div>
+      </div>
+      <div class="copyright"> 
+        Copyright © 2021 Page built by Nero Studios
+      </div>
+      </footer>
+      <script src="../scripts/calculator_try.js"></script>
+      <script>
+        document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+        document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+      </script>
+  </body>
+</html>

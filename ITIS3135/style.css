@@ -453,3 +453,19 @@ footer .bottom_content div {
 .dropdown{
     background: red;
 }
+
+.main-sub-title{
+    text-align: center;
+    color: rgb(214, 214, 214);
+    font-style: italic;
+}
+
+.project-title{
+    color:#ff4d4d;
+    margin-top: 1rem;
+}
+
+.overview-section, .client-section, .wireframe-section, 
+.design-section, .functionality-section, .sitemap-section{
+    width: 80%;
+}
