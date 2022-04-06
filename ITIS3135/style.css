@@ -467,10 +467,26 @@ footer .bottom_content div {
 
 .overview-section, .client-section, .wireframe-section, 
 .design-section, .functionality-section, .sitemap-section{
-    width: 80%;
+    width: 60%;
 }
 
 .list-ignore{
     list-style-type: none!important;
     text-decoration: none;
+}
+
+.image-site{
+    width:80rem
+}
+
+ul{
+    color:#999
+}
+ul h5{
+    font-size: 1.2rem;
+    color:rgba(255, 255, 255, 0.712)
+}
+h5{
+    font-size: 1.2rem;
+    color:rgba(255, 255, 255, 0.712)   
 }
