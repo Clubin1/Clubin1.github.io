@@ -469,3 +469,8 @@ footer .bottom_content div {
 .design-section, .functionality-section, .sitemap-section{
     width: 80%;
 }
+
+.list-ignore{
+    list-style-type: none!important;
+    text-decoration: none;
+}
