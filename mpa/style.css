@@ -1,187 +1,489 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 li,
 a,
 button {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: black;
-    text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
 }
 
 .nav-links {
-    list-style: none;
+  list-style: none;
 }
 
 .nav-links li {
-    display: inline-block;
-    padding: 0px 20px;
+  display: inline-block;
+  padding: 0px 20px;
 }
 
 .nav-links li a {
-    transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .nav-links li a:hover {
-    color: #881010;
+  color: #881010;
 }
 
 button {
-    padding: 9px 25px;
-    background-color: #881010;
-    opacity: 1;
-    border: none;
-    border-radius: 50px;
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    color: white;
+  padding: 9px 25px;
+  background-color: #881010;
+  opacity: 1;
+  border: none;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  color: white;
 }
 
 button:hover {
-    background-color: white;
-    opacity: 0.8;
-    color: #881010;
+  background-color: white;
+  opacity: 0.8;
+  color: #881010;
 }
 
 .landing {
-    height: 30rem;
-    width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-        url(https://tlc-engineers.com/wp-content/uploads/Charlotte-Skyline.jpg);
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+  height: 30rem;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://tlc-engineers.com/wp-content/uploads/Charlotte-Skyline.jpg);
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .landing-width {
-    width: 100%;
+  width: 100%;
 }
 
 .nav-logo {
-    height: 4rem;
-    position: absolute;
-    top: 1rem;
-    left: 4rem;
+  height: 4rem;
+  position: absolute;
+  top: 1rem;
+  left: 4rem;
 }
 
 .section {
-    height: fit-content;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    width: 100%;
-    padding-left: 10rem;
-    padding-right: 10rem;
+  height: fit-content;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  width: 100%;
+  padding-left: 10rem;
+  padding-right: 10rem;
 }
 
 .search-info {
-    padding-top: 1rem;
+  padding-top: 1rem;
 }
 section {
-    width: 100%;
-    display: inline-block;
-    background: #fff;
-    height: 60vh;
-    text-align: center;
-    font-size: 22px;
-    font-weight: 700;
-    text-decoration: underline;
+  width: 100%;
+  display: inline-block;
+  background: #fff;
+  height: 60vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
 }
 
 .footer-distributed {
-    background-color: #fff;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-    box-sizing: border-box;
-    width: 100%;
-    text-align: left;
-    font: normal 16px sans-serif;
-    padding: 45px 50px;
+  background-color: #fff;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
 }
 
 .footer-distributed .footer-left p {
-    color: #000000;
-    font-size: 14px;
-    margin: 0;
+  color: #000000;
+  font-size: 14px;
+  margin: 0;
 }
 
 .footer-distributed p.footer-links {
-    font-size: 18px;
-    font-weight: bold;
-    color: #000000;
-    margin: 0 0 10px;
-    padding: 0;
-    transition: ease 0.25s;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease 0.25s;
 }
 
 .footer-distributed p.footer-links a {
-    display: inline-block;
-    line-height: 1.8;
-    text-decoration: none;
-    color: inherit;
-    transition: ease 0.25s;
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease 0.25s;
 }
 
 .footer-distributed .footer-links a:before {
-    content: "·";
-    font-size: 20px;
-    left: 0;
-    color: rgb(51, 51, 51);
-    display: inline-block;
-    padding-right: 5px;
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: rgb(51, 51, 51);
+  display: inline-block;
+  padding-right: 5px;
 }
 
 .footer-distributed .footer-links .link-1:before {
-    content: none;
+  content: none;
 }
 
 .footer-distributed .footer-right {
-    float: right;
-    margin-top: 6px;
-    max-width: 180px;
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
 }
 
 .footer-distributed .footer-right a {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    background-color: #ffffff;
-    border-radius: 2px;
-    font-size: 20px;
-    color: #ffffff;
-    text-align: center;
-    line-height: 35px;
-    margin-left: 3px;
-    transition: all 0.25s;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition: all 0.25s;
 }
 
 .footer-distributed .footer-right a:hover {
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
 }
 
 .footer-distributed p.footer-links a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-.footer-logo{
-    height: 4rem;
+.footer-logo {
+  height: 4rem;
+}
+
+#row {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.contact-container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+}
+
+#con input[type="text"],
+#con input[type="email"],
+#con input[type="tel"],
+#con input[type="url"],
+#con textarea,
+#con button[type="submit"] {
+  font: 400 12px/16px "Raleway", Helvetica, Arial, sans-serif;
+}
+
+#con {
+  background: #f9f9f9;
+  padding: 25px;
+  margin: 150px 0;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+#con h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#con h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#con input[type="text"],
+#con input[type="email"],
+#con input[type="tel"],
+#con input[type="url"],
+#con textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#con input[type="text"]:hover,
+#con input[type="email"]:hover,
+#con input[type="tel"]:hover,
+#con input[type="url"]:hover,
+#con textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid rgb(255, 58, 124);
+}
+
+#con textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#con button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: transparent;
+  color: #999999;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+  border: #999999 1px solid;
+}
+
+#con button[type="submit"]:hover {
+  background: rgb(218, 46, 98);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: white;
+}
+
+#con button[type="submit"]:active {
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 1);
+}
+
+.copyright {
+  text-align: center;
+}
+
+#con input:focus,
+#con textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+
+.contact-container {
+  font-family: "Poppins", sans-serif;
+  font-size: 2em;
+  position: relative;
+  color: #800000;
+}
+
+/* Contact footer*/
+.contact-title {
+  color: #800000;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 2em;
+  margin-top: -7rem;
+}
+
+.contact-info-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.contact-info-wrapper2 {
+  display: flex;
+  justify-content: center;
+  color: #252525;
+
+  font-size: 0.1em;
+  margin-top: -4rem;
+}
+.contact-info-wrapper3 {
+  display: flex;
+  justify-content: center;
+  color: #252525;
+  font-size: 0.6em;
+}
+
+.home-image{
+    height: 30rem;
+    width: 30rem;
+}
+.landing-title, .landing-text{
+    color:white!important;
+}
+
+.landing-text{
+    font-size: 1.2rem;
+}
+
+.item-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.psych-image{
+    height: 20rem;
+    width: 20rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: sans-serif;
+    font-size: 10px;
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    font-size: 1.6rem;
+    line-height: 140%;
+    background-color: #f3f6f6;
+    opacity: 0.3;
+    opacity: 1;
+    display: grid;
+    place-items: center;
+}
+.card {
+    background: #fff;
+    color: #333;
+    margin: 15rem auto;
+    width: 90%;
+    max-width: 1200px;
+    min-height: 30rem;
+    border-radius: 2rem;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    transform: translateY(-55%);
+}
+.hero .img {
+    filter: drop-shadow(0rem 1.5rem rgba(0,0,0,0.1));
+    transition: 0.3s ease-out;
+}
+.card:hover .img {
+    filter: drop-shadow(0rem 2.5rem rgba(0,0,0,0.1));
+}
+
+.title {
+    text-align: center;
+    font-size: 5rem;
+    padding: 1rem;
+}
+
+.acc-container {
+    padding: 4rem 2rem;
+}
+.acc-btn {
+    width: 100%;
+    padding: 1.6rem 2rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    background: inherit;
+    border: none;
+    outline: none;
+    text-align: left;
+    transition: all 0.5s linear;
+}
+.acc-btn:after {
+    content: "\27A4";
+    color: #fa8d0c;
+    float: right;
+    transition: all 0.3s linear;
+}
+.acc-btn.is-open:after {
+    transform: rotate(90deg);
+}
+.acc-btn:hover, .acc-btn.is-open {
+    color: #000;
+    font-weight: bold;
+}
+
+.acc-content {
+    max-height: 0;
+    color: rgba(0,0,0,0.75);
+    font-size: 1.5rem;
+    margin: 0 2rem;
+    padding-left: 1rem;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    border-bottom: 1px solid #ccc;
+}
+
+.credit {
+    text-align: center;
+    padding: 1rem;
+}
+.credit a {
+    text-decoration: wavy underline;
+    color: dodgerblue;
 }
