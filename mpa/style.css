@@ -453,6 +453,8 @@ body {
     outline: none;
     text-align: left;
     transition: all 0.5s linear;
+    color: #000;
+    transition: 200ms ease all;
 }
 .acc-btn:after {
     content: "\27A4";
@@ -479,11 +481,6 @@ body {
     border-bottom: 1px solid #ccc;
 }
 
-.credit {
-    text-align: center;
-    padding: 1rem;
-}
-.credit a {
-    text-decoration: wavy underline;
-    color: dodgerblue;
+label{
+    font-size: 2rem;
 }

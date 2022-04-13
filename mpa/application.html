@@ -1,113 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="stylesheet" href="./style.css">
-      <title>MPACharlotte</title>
-   </head>
-   <body>
-      <header>
-         <nav>
-            <ul class="nav-links">
-               <li><img class="nav-logo" src="https://raw.githubusercontent.com/eliameshie/mpa-website/master/img/MPAlogo2.jpeg"></li>
-               <li><a href="./home.html">Home</a></li>
-               <li><a href="./about.html">About</a></li>
-               <li><a href="./faq.html">FAQ</a></li>
-               <li><a href="./professionals.html">Professionals</a></li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>MPACharlotte</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav-links">
+          <li>
+            <img
+              class="nav-logo"
+              src="https://raw.githubusercontent.com/eliameshie/mpa-website/master/img/MPAlogo2.jpeg"
+            />
+          </li>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./faq.html">FAQ</a></li>
+          <li><a href="./professionals.html">Professionals</a></li>
 
-               <li><a href="./application.html">Application</a></li>
-               <li><a href="./payment.html">Payment</a></li>
-            </ul>
-         </nav>
-         <a class="cta" href="./contact.html"><button>Contact</button></a>
-      </header>
-      <main>
-         <div class="landing-width">
-            <div class="landing">
-               <h1>MECKLENBURG PSYCHOLOGICAL
-                  ASSOCIATION
-               </h1>
-               <h4>Supporting mental health since 1960, the Mecklenburg Psychological Association, is a not-for-profit
-                  association of licensed psychologist.
-               </h4>
+          <li><a href="./application.html">Application</a></li>
+          <li><a href="./payment.html">Payment</a></li>
+        </ul>
+      </nav>
+      <a class="cta" href="./contact.html"><button>Contact</button></a>
+    </header>
+    <main>
+      <div>
+        <Container>
+          <div className="s">
+            <div id="contact-wrapper">
+              <div class="contact-container">
+                <form action="mailto:mpacharlotte@gmail.com" id="con">
+                  <h3>Application Form</h3>
+                  <fieldset>
+                    <input
+                      name="user_name"
+                      placeholder=" Your Name"
+                      type="text"
+                      tabindex="1"
+                    />
+                  </fieldset>
+                  <fieldset>
+                    <input
+                      name="user_email"
+                      placeholder="Your Email Address"
+                      type="email"
+                      tabindex="2"
+                    />
+                  </fieldset>
+                  <fieldset>
+                      <h6>Did you pay yet?</h6>
+                    <input
+                      type="radio"
+                      id="huyesey"
+                      name="yesno"
+                      value="yes"
+                      checked
+                    />
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="no" name="yesno" value="dewey" />
+                    <label for="no">No</label>
+                  </fieldset>
+                  <fieldset>
+                    <textarea
+                      name="message"
+                      placeholder="Type your reason for wanting to join here...."
+                      tabindex="5"
+                      type="message"
+                    ></textarea>
+                  </fieldset>
+                  <fieldset>
+                    <button
+                      name="submit"
+                      type="submit"
+                      id="contact-submit"
+                      data-submit="...Sending"
+                    >
+                      Submit
+                    </button>
+                  </fieldset>
+                </form>
+              </div>
             </div>
-         </div>
-         <div class="section">
-            <h1>Find A Psychologist</h1>
-            <p>
-                Locate Licensed Psychologists in the Charlotte, North Carolina area who actively participate in their local professional association so they can keep up with the latest healthcare trends, share proven therapeutic techniques, and preserve the highest ethical standards for treatment of patients.
-            </p>
+          </div>
+        </Container>
+      </div>
+    </main>
 
-            <img src="https://mpacharlotte.org/static/media/community.2b9346d5.svg">
-         </div>
-         <div class="section">
-            <div class="searchContainer">
-               <p class="search-info twotime">
-                  Welcome to the Mecklenburg
-                  Psychological Association (MPA) Psychologist Membership & Referral
-                  Directory. Search for specialities, location and name.
-               </p>
-               <p class="search-info">
-                  The Mecklenburg Psychological Association provides this
-                  service as a way for you to find licensed psychologists in your
-                  area. Using our search engine, you will receive a list of
-                  psychologists whose self-described services match with your needs.
-                  You may click on any psychologist's name to find out more about
-                  that psychologist. Many psychologists have web pages that further
-                  describe their services.
-               </p>
-               <p class="search-info">
-                  You may want to contact at least three psychologists by phone
-                  before making a decision about with whom you wish to schedule an
-                  initial appointment. You may want to discuss how much experience
-                  the psychologist has had with patients/clients with problems
-                  similar to the one(s) you have, the cost of services, how
-                  frequently you would be seen, the estimated length of treatment
-                  and any questions you have about training or experience. If you
-                  plan to use medical insurance to help cover the cost of therapy,
-                  you may want to call your insurance company to understand your
-                  mental health benefits, including co-pays and deductibles for in-
-                  or out-of-network providers. Please consider that you may need to
-                  leave a phone number and a time you can be reached in case the
-                  therapist is unavailable when you call.
-               </p>
-               <p class="search-info">
-                  Psychologists in the MPA Membership & Referral Directory are
-                  by a psychologist you choose to meet with from this list.
-               </p>
-            </div>
-         </div>
-      </main>
+    <footer class="footer-distributed">
+      <div class="footer-right">
+        <img
+          class="footer-logo"
+          src="https://raw.githubusercontent.com/eliameshie/mpa-website/master/img/MPAlogo2.jpeg"
+        />
+      </div>
 
-		<footer class="footer-distributed">
+      <div class="footer-left">
+        <p class="footer-links">
+          <a class="link-1" href="./index.html">Home</a>
 
-			<div class="footer-right">
+          <a href="./about.html">About</a>
 
-                <img class="footer-logo" src="https://raw.githubusercontent.com/eliameshie/mpa-website/master/img/MPAlogo2.jpeg">
-			</div>
+          <a href="./faq.html">FAQ</a>
 
-			<div class="footer-left">
+          <a href="./professionals.html">Professionals</a>
 
-				<p class="footer-links">
-					<a class="link-1" href="#">Home</a>
+          <a href="./application.html">Application</a>
+          <a href="./payment.html">Payment</a>
 
-					<a href="./about.html">About</a>
+          <a href="./contact.html">Contact</a>
+        </p>
 
-					<a href="./faq.html">FAQ</a>
-
-					<a href="./professionals.html">Professionals</a>
-
-					<a href="./application.html">Application</a>
-					<a href="./payment.html">Payment</a>
-
-					<a href="./contact.html">Contact</a>
-				</p>
-
-				<p>Mecklenburg Psychological Association &copy; 2022</p>
-			</div>
-
-		</footer>
-   </body>
+        <p>Mecklenburg Psychological Association &copy; 2022</p>
+      </div>
+    </footer>
+  </body>
 </html>
