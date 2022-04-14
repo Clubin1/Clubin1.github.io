@@ -1,12 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-}
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
 
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 li,
@@ -197,20 +194,6 @@ section {
   flex-direction: column;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  -o-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-}
-
 .contact-container {
   max-width: 400px;
   width: 100%;
@@ -391,11 +374,6 @@ fieldset {
     width: 20rem;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 html {
     font-family: sans-serif;
     font-size: 10px;
