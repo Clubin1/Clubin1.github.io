@@ -172,7 +172,6 @@ section {
 
 .footer-distributed .footer-right a:hover {
   transform: scale(1.1);
-  -webkit-transform: scale(1.1);
 }
 
 .footer-distributed p.footer-links a:hover {
@@ -256,8 +255,6 @@ fieldset {
 #con input[type="tel"]:hover,
 #con input[type="url"]:hover,
 #con textarea:hover {
-  -webkit-transition: border-color 0.3s ease-in-out;
-  -moz-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   border: 1px solid rgb(255, 58, 124);
 }
@@ -282,8 +279,6 @@ fieldset {
 
 #con button[type="submit"]:hover {
   background: rgb(218, 46, 98);
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   color: white;
 }
@@ -302,21 +297,6 @@ fieldset {
   border: 1px solid #aaa;
 }
 
-::-webkit-input-placeholder {
-  color: #888;
-}
-
-:-moz-placeholder {
-  color: #888;
-}
-
-::-moz-placeholder {
-  color: #888;
-}
-
-:-ms-input-placeholder {
-  color: #888;
-}
 
 .contact-container {
   font-family: "Poppins", sans-serif;
