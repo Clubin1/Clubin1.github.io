@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../style.css" />
+        <link rel="stylesheet" href="../styles/arrays.css" />
+        <title>Justin Tubay Calculator Right</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+            * {
+                margin: 0;
+                padding: 0;
+                font-family: Roboto;
+            }
+            footer {
+                background-color: #161925;
+                height: 10rem;
+                text-align: center;
+                color:#fff
+            }
+
+            .navbar {
+                background-color: #161925;
+                overflow: hidden;
+                font-family: "Roboto", sans-serif;
+                height: 5rem;
+                display: flex;
+                align-items: center;
+            }
+            .navbar a {
+                text-decoration: none;
+                text-align: center;
+                padding: 14px 16px;
+                float: left;
+                color: white;
+            }
+            .navbar a:hover {
+                background-color: #8ea8c3;
+                color: #cbf7ed;
+            }
+
+            .navbar a:hover {
+                background-color: #8ea8c3;
+                color: white !important;
+            }
+            .content {
+                position: absolute;
+                min-width: 160px;
+                z-index: 1;
+                box-shadow: 0px 1px 1px 1px black;
+                margin-top: 50px;
+                display: none;
+            }
+            .content a {
+                display: block;
+                float: none;
+                background-color: black;
+                text-decoration: none;
+                text-align: left;
+                padding: 14px 16px;
+            }
+
+            main {
+                background-color: #8ea8c3;
+                text-align: center;
+            }
+            .tab {
+                overflow: hidden;
+                color: #8ea8c3!important;
+                text-align: center;
+            }
+            .tabButton {
+                background-color: inherit;
+                float: left;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                color: #8ea8c3!important;
+
+                padding: 14px 16px;
+                transition: 0.3s;
+                font-size: 15px;
+                text-align: center;
+            }
+
+            .tabButton:hover {
+                background-color: #292e46;
+            }
+
+            .tabButton.active {
+                background-color: #292e46;
+            }
+
+            .tabcontent {
+                display: none;
+                padding: 5px 10px;
+            }
+            .image{
+                height: 20rem;
+                width: 40rem;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <a href="#">JT * ITIS 3135 Web-App Design and Development</a>
+                <div class="tab">
+                    <button class="tabButton" onclick="openTab(event, '2')">
+                        Home
+                    </button>
+                    <button class="tabButton" onclick="openTab(event, '1')">
+                        About Me
+                    </button>
+                    <button class="tabButton" onclick="openTab(event, '3')">
+                        Upcoming GroupBuys
+                    </button>
+                    <button class="tabButton" onclick="openTab(event, '4')">
+                        Where To Order
+                    </button>
+                    <button class="tabButton" onclick="openTab(event, '5')">
+                        How to Build
+                    </button>
+                    <button class="tabButton" onclick="openTab(event, '6')">
+                        Why Build One
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main style="min-height: 80vh">
+            <h1 class="main-title-thing">Justin Tubay, 3135, Hobbys page</h1>
+            <section id="hide">
+                <h2>About Me</h2>
+                <img height="1000px" src='./images/IMG_3077.jpg'alt="my keyboards">
+                <p>I have been using computers ever since I was roughly 12. I always enjoyed the feel and sound that mechanical keyboards bring to the table
+                    I always used brand keyboards, until I fell into the custom mechanical board rabbit hole. I have been buying and building custom keyboards for roughly 2 years now. I have 4 of my own custom keyboards
+                    and I plan to build a collection all made by me. The downside to custom keyboards, is the cost. Like most hobbys, they can get expensive.
+                </p>
+                <h5>I have spent a lot of money on keyboards.</h5>
+                <ul>
+                    <li>First keyboard: $200</li>
+                    <li>Second keyboard: $400</li>
+                    <li>Third keyboard: $700</li>
+                    <li>Fourth keyboard: $300</li>
+                </ul>
+            </section>
+            <section id="2" class="tabcontent">
+                <h2>Home</h2>
+                <h3>What are Custom Mechanical Keyboards?</h3>  
+                <iframe width="945" height="541" src="https://www.youtube.com/embed/GBW7dLQSYJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>Custom Keyboards are personal creations based off of mechanical keyboards. The community creates custom parts that are not industry standard, and the average person can chose parts off the internet to create their own, personal board.</p>
+                
+            </section>
+            <section id="1" class="tabcontent">
+                <h2>About Me</h2>
+                <img height="1000px" src='./images/IMG_3077.jpg'alt="my keyboards">
+                <p>I have been using computers ever since I was roughly 12. I always enjoyed the feel and sound that mechanical keyboards bring to the table
+                    I always used brand keyboards, until I fell into the custom mechanical board rabbit hole. I have been buying and building custom keyboards for roughly 2 years now. I have 4 of my own custom keyboards
+                    and I plan to build a collection all made by me. The downside to custom keyboards, is the cost. Like most hobbys, they can get expensive.
+                </p>
+                <h5>I have spent a lot of money on keyboards.</h5>
+                <ul>
+                    <li>First keyboard: $200</li>
+                    <li>Second keyboard: $400</li>
+                    <li>Third keyboard: $700</li>
+                    <li>Fourth keyboard: $300</li>
+                </ul>
+            </section>
+            <section id="3" class="tabcontent">
+                <h2>Upcoming GroupBuys</h2>
+                <p>I cultivated a list of 3 upcoming group buys that are going to be releasing soon.</p>
+                <p>What is a group buy?</p>
+                <p>A group buy is a community hosted event where a creator sells their designed product wether its keycaps, boards etc, and the community places an order to recieve one.
+                    The creator only creates the exact amount that were ordered, so group buy items are only ever created once.
+                </p>
+                <div class="item">
+                    <img class="image" alt="item" src="https://theawesomer.com/photos/2021/02/drop_mito_mitolet_keycaps_1.jpg">
+                    <h2 class="item-name">DROP Violet</h2>
+                </div>
+
+                <div class="item">
+                    <img class="image" alt="item" src="https://cdn.shopify.com/s/files/1/0482/3600/3480/products/GMK-Electric-Keycaps-TGR-Alice-Deskmat-Mechanical-Keyboard-Vala-Supply-Original-2-3840x2160.jpg?v=1631230888">
+                    <h2 class="item-name">GMK Electic</h2>
+                </div>
+
+                <div class="item">
+                    <img class="image" alt="item" src="https://cdn.shopify.com/s/files/1/0482/3600/3480/products/GMK-Avanguardia-Base-White-Alphas-Novelties-Keebwerk-Mega-Mouse_grande.jpg?v=1608047482">
+                    <h2 class="item-name">GMK Avanguardia</h2>
+                </div>
+            </section>
+            <section id="4" class="tabcontent">
+                <h2>Where To Order</h2>
+                <p>Since this hobby is very community based, there are a lot of websites out there meant to connect you with all of the keyboard resources created by the community.</p>
+                <p>Below is a cultivated list of different resources</p>
+                <ul>
+                    <li>All purpose: <a href="https://kbdfans.com">www.kbdfans.com</a></li>
+                    <li>GroupBuys: <a href="https://www.mechgroupbuys.com/keycaps">https://www.mechgroupbuys.com/keycaps                    </a></li>
+                    <li>Availability: <a href="https://thocstock.com/keycaps">https://thocstock.com/keycaps</a></li>
+                </ul>
+                <img src="./images/Capture.PNG" alt="KBD">
+            </section>
+            <section id="5" class="tabcontent">
+                <h2>How To Build</h2>
+                <p>When it comes to building keyboards there are many steps depending on what keyboard you are building</p>
+                <ul>
+                    <li>Lube keyboard switches</li>
+                    <li>Solder switches to PCB</li>
+                    <li>Put keycaps on keyboard</li>
+                </ul>
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/d4ujz-noZKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+            <section id="6" class="tabcontent">
+                <h2>Why Build One</h2>
+                <img class="image" src="https://preview.redd.it/1uk020x75i061.jpg?auto=webp&s=fa71e9a7d021db29e74c76f6e831df345e80ca3a" alt="persona">
+                <ul>
+                    <li>Full Customization</li>
+                    <li>Choose your own colors</li>
+                    <li>Build your own sound profile</li>
+                    <li>Keycaps available for all sorts of communities</li>
+                </ul>
+
+            </section>
+        </main>
+        <footer>
+            <div class="bottom_content">
+                <div class="tab">
+                    <button class="tabButton" onclick="openTab(event, '2')">
+                        Home
+                    </button>
+                    <button class="tabButton" onclick="openTab(event, '1')">
+                        About Me
+                    </button>
+                    <button class="tabButton" onclick="openTab(event, '3')">
+                        Upcoming GroupBuys
+                    </button>
+                    <button class="tabButton" onclick="openTab(event, '4')">
+                        Where To Order
+                    </button>
+                    <button class="tabButton" onclick="openTab(event, '5')">
+                        How to Build
+                    </button>
+                    <button class="tabButton" onclick="openTab(event, '6')">
+                        Why Build One
+                    </button>
+                </div>
+                <div class="footer-center">
+                    <a href="" id="validation_link_html"
+                        ><img
+                            alt="html button"
+                            src="../ITIS3135/images/button_validation_html5.png"
+                    /></a>
+                    <a href="" id="validation_link_css"
+                        ><img
+                            alt="css button"
+                            src="../ITIS3135/images/button_validation_css.png"
+                    /></a>
+                </div>
+            </div>
+            <div class="copyright">
+                Copyright © 2021 Page built by <a href="../NeroDev/home.html"> Nero Dev</a>
+            </div>
+        </footer>
+        <script src="../scripts/arrays.js"></script>
+        <script>
+            document
+                .getElementById("validation_link_html")
+                .setAttribute(
+                    "href",
+                    "https://validator.w3.org/check?uri=" + location.href
+                );
+            document
+                .getElementById("validation_link_css")
+                .setAttribute(
+                    "href",
+                    "https://jigsaw.w3.org/css-validator/validator?uri=" +
+                        location.href
+                );
+        </script>
+        <script src="./hobby.js"></script>
+    </body>
+</html>
