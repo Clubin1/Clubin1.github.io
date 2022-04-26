@@ -1,121 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <title>MPACharlotte</title>
-  </head>
-  <body>
-    <header>
-      <nav>
-         <ul class="nav-links">
-            <li><img alt="Navbar" class="nav-logo" src="https://raw.githubusercontent.com/eliameshie/mpa-website/master/img/MPAlogo2.jpeg"></li>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./about.html">About</a></li>
-            <li><a href="./faq.html">FAQ</a></li>
-            <li><a href="./professionals.html">Professionals</a></li>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css"
+        />
+        <link
+            rel="stylesheet"
+            href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/rangeslider.js/2.3.3/rangeslider.css"
+            integrity="sha512-FkNnPJevAkIHB3NqUiMadWNcoMcOCPQUMyF55JeAFZmPcSR6wK6TgZ0qL6bMrRqGNaaVS8CAwBYceORhdTUILQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/rangeslider.js/2.3.3/rangeslider.min.css"
+            integrity="sha512-Rp0yZ3NMh1xOUZ4VHYggmX4pq4ZJdpcOETH03qBD5qNDsqTBw1MzUnX0T5PcTJmr2mNTOmtbxsHaGwzjylNpHA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./style.css" />
+        <link
+            ref="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/rangeslider.js/2.3.3/rangeslider.min.css.map"
+        />
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+        <script>
+            $(function () {
+                $("#text").resizable();
+            });
+        </script>
+        <title>MPACharlotte</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="nav-links">
+                    <li>
+                        <img
+                            alt="Navbar"
+                            class="nav-logo"
+                            src="https://raw.githubusercontent.com/eliameshie/mpa-website/master/img/MPAlogo2.jpeg"
+                        />
+                    </li>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./faq.html">FAQ</a></li>
+                    <li><a href="./professionals.html">Professionals</a></li>
 
-            <li><a href="./application.html">Application</a></li>
-            <li><a href="./payment.html">Payment</a></li>
-         </ul>
-      </nav>
-      <a class="cta" href="./contact.html">Contact</a>
-   </header>
-    <main>
-      <div>
-          <div className="s">
-            <div id="contact-wrapper">
-              <div class="contact-container">
-                <form action="mailto:mpacharlotte@gmail.com" id="con">
-                  <h3>Application Form</h3>
-                  <fieldset>
-                    <input
-                      name="user_name"
-                      placeholder=" Your Name"
-                      type="text"
-                      tabindex="1"
-                    />
-                  </fieldset>
-                  <fieldset>
-                    <input
-                      name="user_email"
-                      placeholder="Your Email Address"
-                      type="email"
-                      tabindex="2"
-                    />
-                  </fieldset>
-                  <fieldset>
-                      <h6>Did you pay yet?</h6>
-                    <input
-                      type="radio"
-                      id="yes"
-                      name="yesno"
-                      value="yes"
-                      checked
-                    />
-                    <label for="yes">Yes</label>
-                    <input type="radio" id="no" name="yesno" value="dewey" />
-                    <label for="no">No</label>
-                  </fieldset>
-                  <fieldset>
-                    <textarea
-                      name="message"
-                      placeholder="Type your reason for wanting to join here...."
-                      tabindex="5"
-                      type="message"
-                    ></textarea>
-                  </fieldset>
-                  <fieldset>
-                    <button
-                      name="submit"
-                      type="submit"
-                      id="contact-submit"
-                      data-submit="...Sending"
-                    >
-                      Submit
-                    </button>
-                  </fieldset>
-                </form>
-              </div>
+                    <li><a href="./application.html">Application</a></li>
+                    <li><a href="./payment.html">Payment</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="./contact.html">Contact</a>
+        </header>
+        <main>
+            <div>
+                <div className="s">
+                    <div id="contact-wrapper">
+                        <div class="contact-container">
+                            <form id="con">
+                                <h3>Application Form</h3>
+                                <fieldset>
+                                    <input
+                                        name="user_name"
+                                        placeholder=" Your Name"
+                                        type="text"
+                                        tabindex="1"
+                                    />
+                                </fieldset>
+                                <fieldset>
+                                    <input
+                                        name="user_email"
+                                        placeholder="Your Email Address"
+                                        type="email"
+                                        tabindex="2"
+                                    />
+                                </fieldset>
+
+                                <h6>
+                                    Todays Date
+                                    <input type="text" id="datepicker" />
+                                </h6>
+
+                                <fieldset>
+                                    <legend>Did you pay yet:</legend>
+                                    <label for="radio-1">No</label>
+                                    <input
+                                        type="radio"
+                                        name="radio-1"
+                                        id="radio-1"
+                                    />
+                                    <label for="radio-2">Yes</label>
+                                    <input
+                                        type="radio"
+                                        name="radio-1"
+                                        id="radio-2"
+                                    />
+                                </fieldset>
+                                <fieldset>
+                                    <textarea
+                                        id="text"
+                                        name="message"
+                                        placeholder="Type your reason for wanting to join here...."
+                                        tabindex="5"
+                                        type="message"
+                                    ></textarea>
+                                </fieldset>
+                                <fieldset>
+                                    <button
+                                        name="submit"
+                                        type="button"
+                                        id="contact-submit"
+                                        data-submit="...Sending"
+                                    >
+                                        Submit
+                                    </button>
+                                </fieldset>
+                            </form>
+                            <h6 style="display: none" id="hidden">
+                                Thank you for submitting!
+                            </h6>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-      </div>
-    </main>
-		<footer class="footer-distributed">
+        </main>
+        <div id="resizable" class="ui-widget-content">
+            <h3 class="ui-widget-header">Resizable</h3>
+        </div>
+        <footer class="footer-distributed">
+            <div class="footer-right">
+                <img
+                    alt="Footer"
+                    class="footer-logo"
+                    src="https://raw.githubusercontent.com/eliameshie/mpa-website/master/img/MPAlogo2.jpeg"
+                />
+            </div>
 
-			<div class="footer-right">
+            <div class="footer-left">
+                <p class="footer-links">
+                    <a class="link-1" href="./index.html">Home</a>
 
-                <img alt="Footer" class="footer-logo" src="https://raw.githubusercontent.com/eliameshie/mpa-website/master/img/MPAlogo2.jpeg">
-			</div>
+                    <a href="./about.html">About</a>
 
-			<div class="footer-left">
+                    <a href="./faq.html">FAQ</a>
 
-				<p class="footer-links">
-					<a class="link-1" href="./index.html">Home</a>
+                    <a href="./professionals.html">Professionals</a>
 
-					<a href="./about.html">About</a>
+                    <a href="./application.html">Application</a>
+                    <a href="./payment.html">Payment</a>
 
-					<a href="./faq.html">FAQ</a>
+                    <a href="./contact.html">Contact</a>
+                    <a href="" id="validation_link_html"
+                        ><img
+                            alt="HTML"
+                            src="/ITIS3135/images/button_validation_html5.png"
+                    /></a>
+                    <a href="" id="validation_link_css"
+                        ><img
+                            alt="CSS"
+                            src="/ITIS3135/images/button_validation_css.png"
+                    /></a>
+                </p>
 
-					<a href="./professionals.html">Professionals</a>
-
-					<a href="./application.html">Application</a>
-					<a href="./payment.html">Payment</a>
-
-					<a href="./contact.html">Contact</a>
-               <a href = "" id = "validation_link_html"><img alt="HTML" src="/ITIS3135/images/button_validation_html5.png"></a>
-               <a href = "" id = "validation_link_css"><img alt="CSS" src="/ITIS3135/images/button_validation_css.png"></a>
-				</p>
-
-				<p>Mecklenburg Psychological Association &copy; 2022</p>
-			</div>
-
-		</footer>
-    <script>
-      document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
-      document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
-    </script>
-  </body>
+                <p>Mecklenburg Psychological Association &copy; 2022</p>
+            </div>
+        </footer>
+        <script>
+            document
+                .getElementById("validation_link_html")
+                .setAttribute(
+                    "href",
+                    "https://validator.w3.org/check?uri=" + location.href
+                );
+            document
+                .getElementById("validation_link_css")
+                .setAttribute(
+                    "href",
+                    "https://jigsaw.w3.org/css-validator/validator?uri=" +
+                        location.href
+                );
+        </script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+        <script>
+            $(function () {
+                $("#datepicker").datepicker();
+            });
+        </script>
+        <script>
+            $("#contact-submit").click(function () {
+                $("#con").toggle("highlight");
+                $("#hidden").show(1000);
+            });
+        </script>
+    </body>
 </html>
