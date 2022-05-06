@@ -65,8 +65,12 @@
         <footer>
             <p>&copy; 2017, San Joaquin Valley Town Hall, Fresno, CA 93755</p>
             <br />
-            <a href="https://validator.w3.org/">HTML Validate</a>
-            <a href="https://jigsaw.w3.org/css-validator/">CSS Validate</a>
-        </footer>
+				<a id="validation_link_html" href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+				<a id="validation_link_css" href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+			</footer>
+			<script>
+				document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+				document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+			  </script>
     </body>
 </html>
