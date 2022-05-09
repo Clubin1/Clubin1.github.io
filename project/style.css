@@ -442,3 +442,10 @@ body {
 label{
     font-size: 2rem;
 }
+
+#team {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 3rem;
+}

@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="./faq.js"></script>
     <title>MPACharlotte</title>
   </head>
   <body>
@@ -24,7 +26,7 @@
       <a class="cta" href="./contact.html">Contact</a>
    </header>
     <main class="card">
-      <div class="acc-container">
+      <div id="team" class="acc-container">
         <button class="acc-btn">
           How can I tell if it is time to ask for some help?
         </button>
@@ -215,7 +217,6 @@
 			</div>
 
 		</footer>
-    <script src="./mpa.js"></script>
     <script>
       document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
       document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
